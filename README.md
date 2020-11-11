@@ -1,5 +1,8 @@
 # Anonymize DB with power of Faker
 
+### Installation
+`composer require --dev joonas1234/laravel-anonymize-db`
+
 ### Publish the config:
 `php artisan vendor:publish --tag=config --provider=Joonas1234\\LaravelAnonymizeDB\\AnonymizeDBServiceProvider`
 
