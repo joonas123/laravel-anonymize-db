@@ -1,7 +1,6 @@
 # Anonymize DB with power of Faker
-=====================
 
-### Publish config if you don't have it yet:
+### Publish the config:
 `php artisan vendor:publish --tag=config --provider=Joonas1234\\LaravelAnonymizeDB\\AnonymizeDBServiceProvider`
 
 This will create `config\anonymize-db.php` file for you.
