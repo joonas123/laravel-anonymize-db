@@ -28,5 +28,19 @@ return [
 ```
 It is required to add `FakeCar` to `fakerProviders` so faker can utilize `vehicleRegistration` from `Fakecar`.
 
+### Modifiers
+You can also use Faker's special providers: `unique()`, `optional()` and `valid()`:
+```
+<?php
+
+return [
+    'tables' => [
+        'users' => [
+            'email' => 'email|unique',
+        ],
+    ],
+]
+```
+
 ### Command to anonymize
 `php artisan db:anonymize`
